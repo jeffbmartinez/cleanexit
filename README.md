@@ -43,7 +43,7 @@ of 0 (zero) will be used.
     )
     
     func main() {
-        cleanup.SetUpExitOnCtrlC(myExitFunc)
+        cleanexit.SetUpExitOnCtrlC(myExitFunc)
         
         // ...
     }
