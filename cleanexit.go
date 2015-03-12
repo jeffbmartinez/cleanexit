@@ -29,7 +29,7 @@ func SetUpSimpleExitOnCtrlC() {
 	Similar to SetUpSimpleExitOnCtrlC except you can pass in a
 	function to run right before the program terminates.
 
-	Can be used for cleanup, or to print a nice exit message. I've
+	Can be used for clean up, or to print a nice exit message. I've
 	used this to hide the "^C" that is printed to a terminal when a
 	user hits ctrl-c. You can do this by printing a couple \b
 	characters followed by spaces to stdout. Like this:
